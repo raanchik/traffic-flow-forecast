@@ -1,0 +1,33 @@
+# Private data: never commit the original workbook or other real traffic exports.
+*.xlsx
+*.xls
+*.xlsm
+/data/*
+!/data/sample_traffic.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Editors/system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Credentials and locally configured files
+.env
+.env.*
+*.key
+*.pem
+
+# Generated artifacts
+build/
+dist/
+*.log
