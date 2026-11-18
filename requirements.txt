@@ -1,0 +1,7 @@
+# Python 3.11 is recommended for reproducibility.
+# The 2025 thesis uses the Flet 0.28 API; 1.x has breaking changes.
+flet==0.28.3
+pandas>=2.2,<3.0
+matplotlib>=3.8,<4.0
+prophet>=1.1.7,<1.6
+openpyxl>=3.1,<4.0
